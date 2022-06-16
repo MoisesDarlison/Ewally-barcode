@@ -1,0 +1,117 @@
+{
+    "consumptionAccounts": {
+        "type": "consumptionAccounts",
+        "initialDigit": "8",
+        "sizeMax": 48,
+        "validationByModule": [
+            1,
+            2,
+            3,
+            4
+        ],
+        "rulesByDigit": {
+            "2": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9
+            ],
+            "3": [
+                6,
+                7,
+                8,
+                9
+            ]
+        },
+        "modules": {
+            "1": {
+                "value": {
+                    "initial": 0,
+                    "end": 11
+                },
+                "digit": 11,
+                "ruleModule": 10,
+                "initialDigit": 2
+            },
+            "2": {
+                "value": {
+                    "initial": 12,
+                    "end": 23
+                },
+                "digit": 23,
+                "ruleModule": 10,
+                "initialDigit": 2
+            },
+            "3": {
+                "value": {
+                    "initial": 24,
+                    "end": 35
+                },
+                "digit": 35,
+                "ruleModule": 10,
+                "initialDigit": 2
+            },
+            "4": {
+                "value": {
+                    "initial": 36,
+                    "end": 47
+                },
+                "digit": 47,
+                "ruleModule": 10,
+                "initialDigit": 2
+            }
+        }
+    },
+    "billingAccounts": {
+        "type": "billingAccounts",
+        "sizeMax": 47,
+        "validationByModule": [
+            1,
+            2,
+            3
+        ],
+        "modules": {
+            "1": {
+                "value": {
+                    "initial": 0,
+                    "end": 9
+                },
+                "digit": 9,
+                "ruleModule": 10,
+                "initialDigit": 2
+            },
+            "2": {
+                "value": {
+                    "initial": 10,
+                    "end": 20
+                },
+                "digit": 20,
+                "ruleModule": 10,
+                "initialDigit": 1
+            },
+            "3": {
+                "value": {
+                    "initial": 21,
+                    "end": 31
+                },
+                "digit": 31,
+                "ruleModule": 10,
+                "initialDigit": 1
+            },
+            "4": {
+                "digit": 32
+            },
+            "5": {
+                "value": {
+                    "initial": 33,
+                    "end": 47
+                }
+            }
+        }
+    }
+}
