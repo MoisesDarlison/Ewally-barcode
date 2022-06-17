@@ -32,6 +32,19 @@ Caso deseje utilizar o serviço via biblioteca **nodemon** utilizar comando:
 
 _A API usa a porta 3333 como padrão, podendo ser alterada nas variáveis de ambiente._
 
+# Executando a API localmente com Docker
+
+Antes de executar a API, você precisa configurar o arquivo .env. Use o exemplo disponível, fornecido neste projeto, para criar o seu.
+
+Você pode copiá-lo executando o seguinte comando no diretório raiz deste projeto:
+
+`$ cp .env.example .env`
+
+OBS: É necessario ter intalado o docker e o docker-compose na maquina.
+
+Apos isso, executar o comando:
+
+`$ docker-compose up`
 
 # </br>Acesso a API em produção
 Para acessar, realizar uma requisição do tipo GET conforme abaixo, onde o código de barras é representado pela variável {Codigo_De_Barras}:</br>
