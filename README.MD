@@ -49,7 +49,7 @@ Apos isso, executar o comando:
 # </br>Acesso a API em produção
 Para acessar, realizar uma requisição do tipo GET conforme abaixo, onde o código de barras é representado pela variável {Codigo_De_Barras}:</br>
 
->`GET/ http://localhost:8080/boleto/{Codigo_De_Barras}'`
+>`GET/ https://ewally-barcode.herokuapp.com/boleto/{Codigo_De_Barras}'`
 
 ##  Requisição 
 A API aceitara quaisquer sequência numérica que tenha 47 ou 48 posições. Não sera desconsiderado qualquer outro caractere fora do intervalo de 0 a 9.
